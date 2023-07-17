@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Form</title>
+    <style>
+        body
+{
+    margin: 0;
+    padding: 0;
+    background-color:antiquewhite;
+    font-family: 'Arial';
+}
+.login{
+        width: 382px;
+        
+        margin: auto; 
+        margin: 20 0 0 450px;
+        padding: 80px;
+        background-color:cornsilk;
+        border-radius: 15px ;
+        
+
+}
+h2{
+    text-align: center;
+    color: #277582;
+    padding: 20px;
+}
+label{
+    color:black;
+    font-size: 17px;
+}
+#email{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+}
+#Pass{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+
+}
+.bt{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 17px;
+    padding-left: 7px;
+    color: blue;
+
+
+}
+/* #bt{
+  margin-left: 150px;
+} */
+/* a{
+    float: right;
+    background-color: grey;
+} */
+    </style>
+</head>
+<body>
+    <h2>Login Page</h2><br>
+    <div class="login">
+      <form id="login"   action="login.php" method="POST" >
+        <label><b>Email</b>
+         <br>
+        </label>
+        <input type="text" name="email" id="email" placeholder="email">
+        <br><br>
+        <label><b>Password
+        </b>
+        </label>
+        <input type="Password" name="password" id="Pass" placeholder="Password">
+        <br><br>
+        <button class="bt">LOGIN</button>
+        <p>Not a Registered User?<a href="register.html" style="color:rgb(44, 149, 190)"><b>SignUp</b></a></p>
+        
+        
+        
+     </form>
+  </div>
+</body>
+</html>

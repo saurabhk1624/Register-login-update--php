@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+.column {
+  
+  width: 50%;
+  padding: 0px;
+  height: 930px; 
+}
+.row{
+  display: flex;
+  flex-direction: row;
+}
+
+div{text-align:center;}
+img{text-align: center;
+height:930px;}
+.bt{
+  margin: 30px 0px 0px 0px;
+}
+.login{
+        width: 382px;
+        
+        margin: auto; 
+        margin: 20 0 0 450px;
+        padding: 80px;
+  
+        background-color:#f4f1ea;
+        border-radius: 15px ;
+        height:700px;
+
+}
+#fname{
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+}
+#lname{
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+}
+#phoneno{
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+}
+#email{
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+}
+#password{
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+}
+#cpassword{
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+}
+.bt{
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-radius: 17px;
+    padding-left: 7px;
+    color: blue;
+
+
+}
+</style>
+</head>
+<body>
+
+
+
+<div class="row">
+  <div class="column" >
+    <img class="image" src="https://w0.peakpx.com/wallpaper/42/267/HD-wallpaper-nature-scenery-scenery-nature.jpg" alt="this is image"width="950" height="1000">
+    
+  </div>
+  <div class="column" style="background-color:#e1dad4">
+    <h1 >KIET Group Of Institutions</h1>
+    <h2 >Registration Form</h2>
+    <img src=" " alt="kiet logo"  height="30" width="20">
+    <br>
+    <br>
+    <div class="login"> 
+    <form  action="index.php" method="POST" >
+     
+     <label for="firstname" required><b>First name</b></label>
+     <input type="text" id="fname" name="fname" placeholder="Enter your firstname">
+     <br>
+     <br>
+     <label for="lastname" required><b>Last name</b></label>
+     <input type="text"  id="lname" name="lname"   placeholder="Enter your name">
+     <br>
+     <br>
+     <label for="email" required><b>Email</b></label>
+     <input type="text" id="email" name="email" placeholder="Enter your email">
+     <br>
+     <br>
+     <label for="phone no" required><b>Phone no</b></label>
+     <input type="digits" id="phoneno" name ="phoneno"   placeholder="Enter your phone no">
+     <br>
+     <br>
+     <p><b>Gender</b></p>
+     <label for="male">Male</label>
+     <input type="radio"  id="male" name="gender" value="male" >
+     <br>
+     <label for="female" >Female</label>
+     <input type="radio"  id="female" name="gender" value="female" >
+     <br>
+     <br>
+     
+     <label for="password" required><b>Password</b></label>
+     <input type="password"  id="password" name="password"   placeholder="Enter your password">
+     <br>
+     <br>
+     <label for="confirm password" required><b>Confirm Password</b></label>
+     <input type="password"  id="cpassword" name="cpassword"   placeholder="Enter your password">
+     <br>
+    
+
+     
+     <button class="bt" name="submit"    type="submit"><b>Submit</b></button>
+     <br>
+     
+     <p>Already a user?<a href="login.html" style="color:rgb(44, 149, 190);"><b>SignIn</b></a></p>
+    </form> 
+    </div>
+  </div>
+</div>
+
+
+</body>
+</html>
